@@ -1,0 +1,39 @@
+button, div, form, input {
+      margin: 10px;
+      font-size: 15px;
+      font-family: 'Assistant', sans-serif;
+      border-radius: 5px;
+    }
+
+body {
+    font-family: 'Ubuntu Mono', monospace;
+    background-image: url('../images/cartoon1.png');
+    background-repeat: repeat;
+
+}
+
+h1 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 45px;
+    border-bottom: 10px solid #FE6866; 
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 25px 45px;
+    padding-bottom: 15px;
+}
+
+.show-btn {
+    background-color: #DA5552;
+    color: white;
+    padding: 4px 10px;
+    border: 2px solid black;
+}
+
+button.show-btn:hover {
+    opacity: .6;
+    filter: alpha (opacity=100);
+}
