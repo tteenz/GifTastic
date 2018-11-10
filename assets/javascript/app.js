@@ -5,8 +5,8 @@ function displayshowGif() {
 
   $('#shows-view').empty();
   var show = $(this).attr("data-name");
-  var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + show + "&api_key=dc6zaTOxFJmzC&limit=10&offset=0";
-
+  var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + show + "&api_key=rWTYhtAufJF2umA5ToF2ZeblCgkZF3PP";
+// dc6zaTOxFJmzC&limit=10&offset=0
   $.ajax({
     url: queryURL,
     method: "GET"
