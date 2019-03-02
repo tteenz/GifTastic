@@ -24,8 +24,4 @@ Only once you get images displaying with button presses should you move on to th
 
 Add a form to your page takes the value from a user input box and adds it into your topics array. Then make a function call that takes each topic in the array remakes the buttons on the page.
 
-<<<<<<< HEAD
-Visit https://tteenz.github.io/GifTastic/ to check it out!
-=======
 Visit https://tteenz.github.io/GifTastic/ to check it out! 
->>>>>>> 5dc6ee1c9b20ec6c049172899a6b471a6481ecef
