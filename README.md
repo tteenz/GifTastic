@@ -1,27 +1,13 @@
 # GifTastic
 
-Before you can make any part of our site work, you need to create an array of strings, each one related to a topic that interests you. Save it to a variable called topics.
+Enter a cartoon show to your liking in the search box. 
 
+Once you enter the show into the search box, a button will be created above. 
 
-We chose animals for our theme, but you can make a list to your own liking.
-
-
-Your app should take the topics in this array and create buttons in your HTML.
-
-
-Try using a loop that appends a button for each string in the array.
-
-
-When the user clicks on a button, the page should grab 10 static, non-animated gif images from the GIPHY API and place them on the page.
-When the user clicks one of the still GIPHY images, the gif should animate. If the user clicks the gif again, it should stop playing.
-
-Under every gif, display its rating (PG, G, so on).
+Once you click the button above, 10 gifs will be display below. 
+When you click on the gif, it will play. If you click on it again, the gif will stop. 
 
 
 This data is provided by the GIPHY API.
-Only once you get images displaying with button presses should you move on to the next step.
-
-
-Add a form to your page takes the value from a user input box and adds it into your topics array. Then make a function call that takes each topic in the array remakes the buttons on the page.
 
 Visit https://tteenz.github.io/GifTastic/ to check it out! 
